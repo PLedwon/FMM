@@ -1,0 +1,18 @@
+clc
+T=100; N=45; df=1/T; dt=T/N; Fm=1/dt; t=[0:df:T-dt]; f=[0:df:Fm-df];
+RecSamVec=[0:dt/3:2*T]; 
+
+f = @(x) sin(2*pi*10*x);
+
+Ff=fft(f);
+
+figure(1)
+plot(f,Ff)
+
+W=exp(1i*RecSamVec'*f*2*pi);
+g=W*Ff;
+
+
+figure(2)
+plot(RecSamVec,f(RecSamVec),RecSamVec,g)
+

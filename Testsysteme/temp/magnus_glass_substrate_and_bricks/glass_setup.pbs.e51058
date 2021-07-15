@@ -1,0 +1,2 @@
+/usr/lib64/python2.6/site-packages/scipy/io/matlab/mio.py:165: FutureWarning: Using oned_as default value ('column') This will change to 'row' in future versions
+  oned_as=oned_as)
