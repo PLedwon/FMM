@@ -1,2 +1,2 @@
 # FMM
-Extension of the Fourier Mode Methhod with the Magnus-Expansion for my Bachelor thesis.
+Extension of the Fourier Mode Method with the Magnus-Expansion for my Bachelor thesis.
